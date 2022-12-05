@@ -1,0 +1,30 @@
+// header contacts
+.header__contacts {
+  display: inline-flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__contact {
+  display: inline-flex;
+  align-items: center;
+  padding: 32px 0;
+
+  text-decoration: none;
+  color: $text-p-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  transition: color $action-total-time $action-time;
+
+  @extend %links-hover-focus;
+}
+
+.header__icon {
+  margin-right: 10px;
+  fill: currentColor;
+
+  @extend %links-hover-focus;
+}

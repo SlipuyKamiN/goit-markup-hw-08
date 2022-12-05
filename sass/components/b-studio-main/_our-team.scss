@@ -1,0 +1,53 @@
+.team {
+  background-color: $background-secondary-color;
+}
+
+.team__list {
+  display: flex;
+  gap: 30px;
+}
+
+.team__card {
+  background-color: $primary-white-color;
+
+  text-align: center;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__content {
+  padding: 30px 32px;
+}
+
+.team__member {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.team__desc {
+  color: $text-p-color;
+  line-height: 1.71;
+
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 16px;
+}
+
+// socials buttons
+
+.team-socials__link {
+  color: $no-accent-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $primary-white-color;
+  }
+}

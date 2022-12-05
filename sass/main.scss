@@ -1,0 +1,25 @@
+@import '../sass/utils/vars';
+@import '../sass/base/base';
+@import '../sass/utils/visually-hidden';
+
+@import '../sass/components/shared/logo';
+@import '../sass/components/shared/button';
+@import '../sass/components/shared/socials';
+
+@import '../sass/components/a-page-header/header';
+@import '../sass/components/a-page-header/header-nav';
+@import '../sass/components/a-page-header/header-contacts';
+@import '../sass/components/b-studio-main/hero';
+@import '../sass/components/b-studio-main/modal';
+@import '../sass/components/b-studio-main/features';
+@import '../sass/components/b-studio-main/doings';
+@import '../sass/components/b-studio-main/our-team';
+@import '../sass/components/b-studio-main/clients';
+
+@import '../sass/components/b-portfolio-main/upper';
+@import '../sass/components/b-portfolio-main/projects';
+
+@import '../sass/components/c-page-footer/footer';
+@import '../sass/components/c-page-footer/footer-contacts';
+@import '../sass/components/c-page-footer/footer-follow';
+@import '../sass/components/c-page-footer/footer-form';

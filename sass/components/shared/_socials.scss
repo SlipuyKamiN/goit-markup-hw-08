@@ -1,0 +1,23 @@
+.socials {
+  display: flex;
+  height: 44px;
+  align-items: center;
+  gap: 10px;
+}
+
+.socials__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+  transition: background-color $action-total-time $action-time,
+    color $action-total-time $action-time;
+}
+
+.socials__icon {
+  display: flex;
+  fill: currentColor;
+}

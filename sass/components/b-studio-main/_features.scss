@@ -1,0 +1,38 @@
+.section--no-padding {
+  padding-bottom: 0;
+}
+
+.features {
+  display: flex;
+  gap: 30px;
+}
+
+.features__item {
+  width: 270px;
+}
+
+.features__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+
+  background-color: $background-secondary-color;
+}
+
+.features__title {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features__desc {
+  color: $text-p-color;
+  line-height: 1.71;
+}

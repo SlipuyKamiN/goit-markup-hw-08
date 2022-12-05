@@ -1,0 +1,29 @@
+/* колір фону #F5F5F5 */
+/* другорядний колір фону #F5F4FA */
+/* герой і футер колір фону #2F303A */
+/* колір тексту #212121 */
+/* колір абзаців #757575 */
+/* акцент #2196F3 */
+/* білий #FFFFFF */
+/* контакти у футері color: rgba(255, 255, 255, 0.6); */
+
+$black-color: #000000;
+$text-primary-color: #212121;
+$text-p-color: #757575;
+$primary-white-color: #ffffff;
+$background-secondary-color: #f5f4fa;
+$hero-footer-color: #2f303a;
+$accent-color: #2196f3;
+$no-accent-color: #afb1b8;
+$primary-btn-accent-color: #188ce8;
+$action-time: cubic-bezier(0.4, 0, 0.2, 1);
+$action-total-time: 250ms;
+
+// placeholders
+
+%links-hover-focus {
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}

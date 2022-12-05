@@ -1,0 +1,24 @@
+.follow {
+  margin-left: 70px;
+}
+
+.follow__title {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+
+.follow-socials__link {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $primary-white-color;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
+}

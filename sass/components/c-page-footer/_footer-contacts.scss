@@ -1,0 +1,18 @@
+.footer__contact:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+
+  transition: color $action-total-time $action-time;
+
+  &--white {
+    color: $primary-white-color;
+  }
+
+  @extend %links-hover-focus;
+}
