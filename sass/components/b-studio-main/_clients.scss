@@ -2,17 +2,18 @@
   display: flex;
   margin: 0;
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .clients__link {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
+  // width: 170px;
   height: 92px;
   border: 1px solid $no-accent-color;
   border-radius: 4px;
-  padding: 16px 32px;
+  padding: 16px 50px;
 
   color: $no-accent-color;
 

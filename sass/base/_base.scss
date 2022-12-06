@@ -41,13 +41,16 @@ address {
 }
 
 .container {
-  // outline: 1px solid red;
-  width: 1200px;
+  outline: 1px solid red;
   margin: 0 auto;
   padding: 0 15px;
+
+  @media screen and (min-width: 480px) {
+    width: 480px;
+  }
 }
 
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin: 0 auto;
+  padding: 60px 0;
 }

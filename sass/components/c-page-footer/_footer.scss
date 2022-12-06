@@ -1,18 +1,18 @@
 .footer {
-  display: flex;
   padding-top: 60px;
   padding-bottom: 60px;
 
   background-color: $hero-footer-color;
+
+  text-align: center;
 }
 
 .footer-container {
-  display: flex;
 }
 
 .logo--margin-change {
   display: inline-block;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .logo__part--white {

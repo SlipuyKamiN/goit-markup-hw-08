@@ -1,12 +1,13 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 30px;
 }
 
 .project__link {
   display: block;
-  width: 370px;
+  width: 450px;
 
   transition: box-shadow $action-total-time $action-time;
 

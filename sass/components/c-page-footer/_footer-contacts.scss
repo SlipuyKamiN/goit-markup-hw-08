@@ -1,8 +1,12 @@
-.footer__contact:not(:last-child) {
+.address {
+  margin-bottom: 60px;
+}
+
+.address__contact:not(:last-child) {
   margin-bottom: 9px;
 }
 
-.footer__link {
+.address__link {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 1.71;

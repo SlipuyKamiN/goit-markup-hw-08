@@ -3,8 +3,6 @@
 }
 
 .team__list {
-  display: flex;
-  gap: 30px;
 }
 
 .team__card {
@@ -17,8 +15,16 @@
   border-radius: 0px 0px 4px 4px;
 }
 
+.team__card:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.team__card img {
+  width: 450px;
+}
+
 .team__content {
-  padding: 30px 32px;
+  padding: 30px 0;
 }
 
 .team__member {
