@@ -1,0 +1,21 @@
+.dropdown {
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ececec;
+}
+
+.dropdown__menu {
+  padding: 48px 40px;
+  display: none;
+}
+
+.dropdown__logo {
+  padding: 0 15px;
+}
+
+.dropdown__icon {
+  color: red;
+  position: absolute;
+  background-color: green;
+}

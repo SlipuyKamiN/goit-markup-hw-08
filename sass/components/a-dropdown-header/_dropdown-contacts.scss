@@ -1,0 +1,30 @@
+// dropdown contacts
+.dropdown__contacts {
+  margin-bottom: 64px;
+}
+.dropdown__contact {
+  text-decoration: none;
+  color: $accent-color;
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  transition: color $action-total-time $action-time;
+
+  @extend %links-hover-focus;
+}
+
+.dropdown__contact--small-size {
+  font-size: 24px;
+  color: $text-p-color;
+}
+
+.dropdown__icon {
+  display: none;
+  margin-right: 10px;
+  fill: currentColor;
+
+  @extend %links-hover-focus;
+}

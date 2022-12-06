@@ -20,7 +20,7 @@
   <body>
     <header class="header">
       <div class="container">
-        <div class="header__items">
+        <div class="header__items header__items--mobile-hidden">
           <nav class="header__nav">
             <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
             <ul class="header__list">
@@ -46,6 +46,57 @@
                 +38 096 111 11 11</a
               >
             </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- dropdown -->
+      <div class="dropdown">
+        <div class="dropdown__logo">
+          <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
+          <svg class="dropdown__ico" width="40px" height="40px">
+            <use href="./images/icons.svg#icon-dropdown"></use>
+          </svg>
+        </div>
+        <div class="dropdown__menu">
+          <svg class="dropdown__ico" width="40px" height="40px">
+            <use href="./images/icons.svg#icon-close-dropdown"></use>
+          </svg>
+          <ul class="dropdown__list">
+            <li class="dropdown__item">
+              <a class="dropdown__link dropdown__link--current" href="./index.html">Студія</a>
+            </li>
+            <li class="dropdown__item">
+              <a class="dropdown__link" href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="dropdown__item"><a class="dropdown__link" href="">Контакти</a></li>
+          </ul>
+          <ul class="dropdown__contacts">
+            <li class="dropdown__item">
+              <a href="tel:+380961111111" class="dropdown__contact">
+                <svg class="dropdown__icon" width="10px" height="16px">
+                  <use href="./images/icons.svg#icon-phone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="dropdown__item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="dropdown__contact dropdown__contact--small-size"
+              >
+                <svg class="dropdown__icon" width="16px" height="12px">
+                  <use href="./images/icons.svg#icon-convert"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+          </ul>
+          <ul class="social-links">
+            <li class="social-links__item"><a href="">Instagram</a></li>
+            <li class="social-links__item"><a href="">Twitter</a></li>
+            <li class="social-links__item"><a href="">Facebook</a></li>
+            <li class="social-links__item"><a href="">LinkedIn</a></li>
           </ul>
         </div>
       </div>
@@ -109,7 +160,7 @@
         </div>
       </section>
       <!-- Чим ми займаємося -->
-      <section class="section">
+      <section class="section section--mobile-hidden">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="section__list">
@@ -336,33 +387,33 @@
     </main>
     <footer class="footer">
       <div class="container footer-container">
-        <div>
+        <div class="address">
           <a href="./index.html" class="logo logo--margin-change"
             >Web<span class="logo__part--white">Studio</span></a
           >
           <address>
             <ul>
-              <li class="footer__contact">
+              <li class="address__contact">
                 <a
                   href="https://goo.gl/maps/kWrGyEN4S8KAi9pg8"
                   target="_blank"
                   rel="noopener nofollow noreferrer"
-                  class="footer__link footer__link--white"
+                  class="address__link address__link--white"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="footer__contact">
-                <a href="mailto:info@devstudio.com" class="footer__link">info@devstudio.com</a>
+              <li class="address__contact">
+                <a href="mailto:info@devstudio.com" class="address__link">info@devstudio.com</a>
               </li>
-              <li class="footer__contact">
-                <a href="tel:+380961111111" class="footer__link">+38 096 111 11 11</a>
+              <li class="address__contact">
+                <a href="tel:+380961111111" class="address__link">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
         <div class="follow">
           <p class="follow__title">Приєднуйтесь</p>
-          <ul class="socials">
+          <ul class="socials socials--centered">
             <li>
               <a href="" class="socials__link follow-socials__link">
                 <svg class="socials__icon" width="20px" height="20px">
