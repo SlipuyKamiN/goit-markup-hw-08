@@ -17,7 +17,7 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body>
+  <body style="">
     <header class="header">
       <div class="container">
         <div class="header__items header__items--mobile-hidden">
@@ -51,43 +51,44 @@
       </div>
 
       <!-- dropdown -->
-      <div class="dropdown">
-        <div class="dropdown__logo">
-          <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
-          <svg class="dropdown__ico" width="40px" height="40px">
+      <div class="mobile-header">
+        <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
+        <button
+          type="button"
+          class="dropdown__btn js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg width="40px" height="40px">
             <use href="./images/icons.svg#icon-dropdown"></use>
           </svg>
-        </div>
-        <div class="dropdown__menu">
-          <svg class="dropdown__ico" width="40px" height="40px">
+        </button>
+      </div>
+      <div class="dropdown js-menu-container">
+        <button type="button" class="dropdown__btn dropdown__btn--close js-close-menu">
+          <svg width="40px" height="40px">
             <use href="./images/icons.svg#icon-close-dropdown"></use>
           </svg>
-          <ul class="dropdown__list">
-            <li class="dropdown__item">
-              <a class="dropdown__link dropdown__link--current" href="./index.html">Студія</a>
-            </li>
-            <li class="dropdown__item">
-              <a class="dropdown__link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="dropdown__item"><a class="dropdown__link" href="">Контакти</a></li>
-          </ul>
+        </button>
+        <ul class="dropdown__list">
+          <li class="dropdown__item">
+            <a class="dropdown__link dropdown__link--current" href="./index.html">Студія</a>
+          </li>
+          <li class="dropdown__item">
+            <a class="dropdown__link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="dropdown__item"><a class="dropdown__link" href="">Контакти</a></li>
+        </ul>
+        <div class="dropdown__lower">
           <ul class="dropdown__contacts">
             <li class="dropdown__item">
-              <a href="tel:+380961111111" class="dropdown__contact">
-                <svg class="dropdown__icon" width="10px" height="16px">
-                  <use href="./images/icons.svg#icon-phone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
+              <a href="tel:+380961111111" class="dropdown__contact"> +38 096 111 11 11</a>
             </li>
             <li class="dropdown__item">
               <a
                 href="mailto:info@devstudio.com"
                 class="dropdown__contact dropdown__contact--small-size"
               >
-                <svg class="dropdown__icon" width="16px" height="12px">
-                  <use href="./images/icons.svg#icon-convert"></use>
-                </svg>
                 info@devstudio.com
               </a>
             </li>
@@ -532,5 +533,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
