@@ -3,6 +3,13 @@
   border-bottom: 1px solid #ececec;
 }
 
+.container--mobile-hidden {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
+}
+
 .header__items {
   display: flex;
   align-items: center;

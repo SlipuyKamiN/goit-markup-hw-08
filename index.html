@@ -17,10 +17,10 @@
     />
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
-  <body style="">
+  <body>
     <header class="header">
-      <div class="container">
-        <div class="header__items header__items--mobile-hidden">
+      <div class="container container--mobile-hidden">
+        <div class="header__items">
           <nav class="header__nav">
             <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
             <ul class="header__list">
@@ -51,54 +51,56 @@
       </div>
 
       <!-- dropdown -->
-      <div class="mobile-header">
-        <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
-        <button
-          type="button"
-          class="dropdown__btn js-open-menu"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg width="40px" height="40px">
-            <use href="./images/icons.svg#icon-dropdown"></use>
-          </svg>
-        </button>
-      </div>
-      <div class="dropdown js-menu-container">
-        <button type="button" class="dropdown__btn dropdown__btn--close js-close-menu">
-          <svg width="40px" height="40px">
-            <use href="./images/icons.svg#icon-close-dropdown"></use>
-          </svg>
-        </button>
-        <ul class="dropdown__list">
-          <li class="dropdown__item">
-            <a class="dropdown__link dropdown__link--current" href="./index.html">Студія</a>
-          </li>
-          <li class="dropdown__item">
-            <a class="dropdown__link" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="dropdown__item"><a class="dropdown__link" href="">Контакти</a></li>
-        </ul>
-        <div class="dropdown__lower">
-          <ul class="dropdown__contacts">
+      <div class="mobile-menu">
+        <div class="mobile-menu__header">
+          <a href="./index.html" class="logo">Web<span class="logo__part">Studio</span></a>
+          <button
+            type="button"
+            class="dropdown__btn js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg width="40px" height="40px">
+              <use href="./images/icons.svg#icon-dropdown"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="dropdown js-menu-container">
+          <button type="button" class="dropdown__btn dropdown__btn--close js-close-menu">
+            <svg width="40px" height="40px">
+              <use href="./images/icons.svg#icon-close-dropdown"></use>
+            </svg>
+          </button>
+          <ul class="dropdown__list">
             <li class="dropdown__item">
-              <a href="tel:+380961111111" class="dropdown__contact"> +38 096 111 11 11</a>
+              <a class="dropdown__link dropdown__link--current" href="./index.html">Студія</a>
             </li>
             <li class="dropdown__item">
-              <a
-                href="mailto:info@devstudio.com"
-                class="dropdown__contact dropdown__contact--small-size"
-              >
-                info@devstudio.com
-              </a>
+              <a class="dropdown__link" href="./portfolio.html">Портфоліо</a>
             </li>
+            <li class="dropdown__item"><a class="dropdown__link" href="">Контакти</a></li>
           </ul>
-          <ul class="social-links">
-            <li class="social-links__item"><a href="">Instagram</a></li>
-            <li class="social-links__item"><a href="">Twitter</a></li>
-            <li class="social-links__item"><a href="">Facebook</a></li>
-            <li class="social-links__item"><a href="">LinkedIn</a></li>
-          </ul>
+          <div class="dropdown__lower">
+            <ul class="dropdown__contacts">
+              <li class="dropdown__item">
+                <a href="tel:+380961111111" class="dropdown__contact"> +38 096 111 11 11</a>
+              </li>
+              <li class="dropdown__item">
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="dropdown__contact dropdown__contact--small-size"
+                >
+                  info@devstudio.com
+                </a>
+              </li>
+            </ul>
+            <ul class="social-links">
+              <li class="social-links__item"><a href="">Instagram</a></li>
+              <li class="social-links__item"><a href="">Twitter</a></li>
+              <li class="social-links__item"><a href="">Facebook</a></li>
+              <li class="social-links__item"><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -186,7 +188,7 @@
           <h2 class="section__title">Наша команда</h2>
           <ul class="team__list">
             <li class="team__card">
-              <img src="./images/igor-demianenko.jpg" alt="igor Demianenko" width="270" />
+              <img src="./images/igor-demianenko.jpg" alt="igor Demianenko" width="354" />
               <div class="team__content">
                 <h3 class="team__member">Ігор Дем'яненко</h3>
                 <p class="team__desc">Product Designer</p>
@@ -223,7 +225,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img src="./images/olga-repina.jpg" alt="Olga Repina" width="270" />
+              <img src="./images/olga-repina.jpg" alt="Olga Repina" width="354" />
               <div class="team__content">
                 <h3 class="team__member">Ольга Рєпіна</h3>
                 <p class="team__desc">Frontend Developer</p>
@@ -260,7 +262,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img src="./images/mykola-tarasov.jpg" alt="Mykola Tarasov" width="270" />
+              <img src="./images/mykola-tarasov.jpg" alt="Mykola Tarasov" width="354" />
               <div class="team__content">
                 <h3 class="team__member">Микола Тарасов</h3>
                 <p class="team__desc">Marketing</p>
@@ -297,7 +299,7 @@
               </div>
             </li>
             <li class="team__card">
-              <img src="./images/mykhailo-yermakov.jpg" alt="Mykhailo Yermakov" width="270" />
+              <img src="./images/mykhailo-yermakov.jpg" alt="Mykhailo Yermakov" width="354" />
               <div class="team__content">
                 <h3 class="team__member">Михайло Єрмаков</h3>
                 <p class="team__desc">UI Designer</p>

@@ -1,5 +1,14 @@
-.mobile-header {
+.mobile-menu {
+  max-width: 480px;
   padding: 10px 15px;
+  margin: 0 auto;
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.mobile-menu__header {
   display: flex;
   justify-content: space-between;
   align-items: center;

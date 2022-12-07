@@ -10,3 +10,11 @@
   clip-path: inset(50%);
   margin: -1px;
 }
+
+.section--mobile-hidden {
+  display: none;
+
+  @media screen and (min-width: 1200px) {
+    display: block;
+  }
+}

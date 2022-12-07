@@ -3,10 +3,17 @@
 }
 
 .features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .features__item {
   width: 100%;
+
+  @media screen and (min-width: 768px) {
+    max-width: 354px;
+  }
 }
 
 .features__icon {

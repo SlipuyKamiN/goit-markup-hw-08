@@ -1,4 +1,7 @@
 .subscribe {
+  @media screen and (min-width: 768px) {
+    width: 450px;
+  }
 }
 
 .subscribe__title {

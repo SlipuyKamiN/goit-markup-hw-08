@@ -8,6 +8,12 @@
 }
 
 .footer-container {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: none;
+    justify-content: center;
+  }
 }
 
 .logo--margin-change {

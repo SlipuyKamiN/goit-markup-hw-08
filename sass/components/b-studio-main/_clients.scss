@@ -23,6 +23,10 @@
     color: $accent-color;
     border-color: $accent-color;
   }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
 }
 
 .clients__icon {

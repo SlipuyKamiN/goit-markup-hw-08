@@ -10,10 +10,12 @@
   background-color: $hero-footer-color;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background-hero.jpg);
-  max-width: 1600px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+
+  @media screen and (min-width) {
+  }
 }
 
 .hero__title {
@@ -22,6 +24,8 @@
   margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
+
+  max-width: 360px;
 
   color: $primary-white-color;
   font-weight: 900;

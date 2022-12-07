@@ -3,6 +3,9 @@
   margin-bottom: 40px;
   row-gap: 15px;
   flex-wrap: wrap;
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+  }
 }
 
 .projects-btn {
