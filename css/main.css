@@ -60,6 +60,7 @@ address {
   outline: 1px solid red;
   margin: 0 auto;
   padding: 0 15px;
+  max-width: 480px;
 }
 @media screen and (min-width: 480px) {
   .container {
@@ -402,7 +403,7 @@ address {
   background-color: #2f303a;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/background-hero.jpg);
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/background-hero.jpg);
-  max-width: 480px;
+  max-width: 1600px;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -677,7 +678,7 @@ address {
 }
 
 .features__item {
-  width: 450px;
+  width: 100%;
 }
 
 .features__icon {
