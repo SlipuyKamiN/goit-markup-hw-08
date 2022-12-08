@@ -80,6 +80,11 @@ address {
   margin: 0 auto;
   padding: 60px 0;
 }
+@media screen and (min-width: 1200px) {
+  .section {
+    padding: 94px 0;
+  }
+}
 
 .visually-hidden {
   position: absolute;
@@ -112,6 +117,12 @@ address {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .logo__part {
@@ -247,6 +258,17 @@ address {
   border-radius: 2px;
 }
 
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 40px;
+  }
+}
 .header__contact {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -264,6 +286,11 @@ address {
   text-decoration: none;
   -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 1200px) {
+  .header__contact {
+    padding: 32px 0;
+  }
 }
 
 .header__icon {
@@ -424,7 +451,6 @@ address {
   background-repeat: no-repeat;
 }
 .hero__title {
-  max-width: 696px;
   margin-top: 0;
   margin-bottom: 30px;
   margin-right: auto;
@@ -437,6 +463,13 @@ address {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    max-width: 696px;
+    font-size: 44px;
+    line-height: 1.36;
+  }
 }
 
 .hero__btn {
@@ -454,7 +487,6 @@ address {
   height: 100%;
   top: 0;
   left: 0;
-  padding: 95px 15px;
   overflow-y: scroll;
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-transform: scale(100%);
@@ -471,15 +503,20 @@ address {
   -webkit-transform: scale(0%);
           transform: scale(0%);
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding: 95px 15px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .backdrop {
     padding: 208px 159px;
   }
 }
 
 .modal {
-  position: relative;
   max-width: 528px;
+  position: relative;
   margin: 0 auto;
   padding: 40px;
   background-color: #ffffff;
@@ -489,6 +526,7 @@ address {
 }
 @media screen and (min-width: 1200px) {
   .modal {
+    width: 528px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -714,6 +752,11 @@ address {
     max-width: 354px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .features__item {
+    width: 270px;
+  }
+}
 
 .features__icon {
   display: -webkit-box;
@@ -747,12 +790,19 @@ address {
 }
 
 .section__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+}
+@media screen and (min-width: 1200px) {
+  .section__title {
+    font-size: 36px;
+    line-height: 1.17;
+    margin-bottom: 50px;
+  }
 }
 
 .section__list {
@@ -810,13 +860,9 @@ address {
     width: 354px;
   }
 }
-
-.team__card:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media screen and (min-width: 768px) {
-  .team__card:not(:last-child) {
-    margin-bottom: 0;
+@media screen and (min-width: 1200px) {
+  .team__card {
+    width: 270px;
   }
 }
 
@@ -890,6 +936,11 @@ address {
     width: 226px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .clients__link {
+    width: 170px;
+  }
+}
 
 .clients__icon {
   fill: currentColor;
@@ -940,7 +991,7 @@ address {
   gap: 30px;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 768px) {
   .project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -949,7 +1000,7 @@ address {
 }
 .project__link {
   display: block;
-  width: 450px;
+  max-width: 450px;
   -webkit-transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -959,15 +1010,12 @@ address {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .project__link {
-    width: 354px;
+    max-width: 354px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: stretch;
-        -ms-flex-align: stretch;
-            align-items: stretch;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -975,6 +1023,11 @@ address {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .project__link {
+    width: 370px;
   }
 }
 
@@ -1042,7 +1095,11 @@ address {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
-  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .footer {
+    text-align: center;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1052,12 +1109,11 @@ address {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    -webkit-box-flex: none;
-        -ms-flex-positive: none;
-            flex-grow: none;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    gap: 94px;
   }
 }
 
@@ -1070,12 +1126,14 @@ address {
   color: #ffffff;
 }
 
-.address {
-  margin-bottom: 60px;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .address {
     margin-left: 76px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .address {
+    margin-bottom: 60px;
   }
 }
 
@@ -1095,12 +1153,14 @@ address {
   color: #ffffff;
 }
 
-.follow {
-  margin-bottom: 60px;
-}
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .follow {
     margin-left: 165px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .follow {
+    margin-bottom: 60px;
   }
 }
 
@@ -1129,9 +1189,17 @@ address {
   background-color: #2196f3;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .subscribe {
     width: 450px;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 
@@ -1149,16 +1217,32 @@ address {
 .subscribe__form {
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .subscribe__form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
 
 .subscribe__email {
   width: 100%;
   height: 50px;
   padding-left: 16px;
-  margin-bottom: 20px;
   color: #ffffff;
   background-color: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
+}
+@media screen and (max-width: 1199px) {
+  .subscribe__email {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe__email {
+    margin-right: 12px;
+  }
 }
 
 .subscribe__btn {

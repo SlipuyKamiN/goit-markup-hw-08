@@ -5,7 +5,7 @@
   gap: 30px;
 }
 
-@media screen and (min-width) {
+@media screen and (min-width: 768px) {
   .project {
     display: flex;
   }
@@ -13,7 +13,7 @@
 
 .project__link {
   display: block;
-  width: 450px;
+  max-width: 450px;
 
   transition: box-shadow $action-total-time $action-time;
 
@@ -23,12 +23,15 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 
-  @media screen and (min-width: 768px) {
-    width: 354px;
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 354px;
     display: flex;
-    align-items: stretch;
     flex-direction: column;
     flex-grow: 1;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 370px;
   }
 }
 

@@ -1,9 +1,12 @@
 // header contacts
-.header__contacts {
-  // display: inline-flex;
-  // align-items: center;
-  // gap: 40px;
+@media screen and (min-width: 1200px) {
+  .header__contacts {
+    display: inline-flex;
+    align-items: center;
+    gap: 40px;
+  }
 }
+
 .header__contact {
   display: inline-flex;
   align-items: center;
@@ -20,6 +23,10 @@
   transition: color $action-total-time $action-time;
 
   @extend %links-hover-focus;
+
+  @media screen and (min-width: 1200px) {
+    padding: 32px 0;
+  }
 }
 
 .header__icon {

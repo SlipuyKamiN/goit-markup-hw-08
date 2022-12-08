@@ -3,16 +3,19 @@
   padding-bottom: 60px;
 
   background-color: $hero-footer-color;
-
-  text-align: center;
+  @media screen and (max-width: 1199px) {
+    text-align: center;
+  }
 }
 
 .footer-container {
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: none;
-    justify-content: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    gap: 94px;
   }
 }
 

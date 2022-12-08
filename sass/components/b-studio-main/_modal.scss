@@ -4,7 +4,6 @@
   height: 100%;
   top: 0;
   left: 0;
-  padding: 95px 15px;
 
   overflow-y: scroll;
 
@@ -21,15 +20,19 @@
 
     transform: scale(0%);
   }
+  @media screen and (max-width: 767px) {
+    padding: 95px 15px;
+  }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
     padding: 208px 159px;
   }
 }
 
 .modal {
-  position: relative;
   max-width: 528px;
+
+  position: relative;
   margin: 0 auto;
   padding: 40px;
 
@@ -39,6 +42,8 @@
   border-radius: 4px;
 
   @media screen and (min-width: 1200px) {
+    width: 528px;
+
     position: absolute;
     left: 50%;
     top: 50%;
