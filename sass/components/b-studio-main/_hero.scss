@@ -1,4 +1,5 @@
 .hero {
+  max-width: 1600px;
   padding-top: 118px;
   padding-bottom: 118px;
 
@@ -9,12 +10,13 @@
 
   background-color: $hero-footer-color;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/background-hero.jpg);
+    url(../images/mobile-hero.jpg);
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 
-  @media screen and (min-width) {
+  @media screen and (min-width: 768px) {
+    background-image: url();
   }
 }
 
