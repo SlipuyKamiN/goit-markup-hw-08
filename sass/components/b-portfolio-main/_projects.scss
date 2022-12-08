@@ -1,8 +1,14 @@
 .projects-list {
   display: flex;
   flex-wrap: wrap;
-  // align-items: center;
+  align-items: stretch;
   gap: 30px;
+}
+
+@media screen and (min-width) {
+  .project {
+    display: flex;
+  }
 }
 
 .project__link {
@@ -19,7 +25,9 @@
 
   @media screen and (min-width: 768px) {
     width: 354px;
+    display: flex;
     align-items: stretch;
+    flex-direction: column;
     flex-grow: 1;
   }
 }
@@ -59,6 +67,10 @@
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
+
+  @media screen and (min-width: 768px) {
+    flex-grow: inherit;
+  }
 }
 
 .project__title {
