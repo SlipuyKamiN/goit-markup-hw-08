@@ -1,5 +1,7 @@
-.section--no-padding {
-  padding-bottom: 0;
+@media screen and (min-width: 1200px) {
+  .section--no-padding {
+    padding-bottom: 0;
+  }
 }
 
 .features {
@@ -34,12 +36,15 @@
 .features__title {
   margin-bottom: 10px;
 
-  text-align: center;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
 
 .features__desc {

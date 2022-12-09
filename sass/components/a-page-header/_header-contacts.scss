@@ -15,8 +15,8 @@
   text-decoration: none;
   color: $text-p-color;
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.02em;
   text-decoration: none;
 
@@ -25,6 +25,8 @@
   @extend %links-hover-focus;
 
   @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.14;
     padding: 32px 0;
   }
 }
@@ -32,6 +34,17 @@
 .header__icon {
   margin-right: 10px;
   fill: currentColor;
-
+  padding: 0;
   @extend %links-hover-focus;
+
+  @media screen and (min-width: 1200px) {
+    height: 16px;
+  }
+}
+
+.header__icon--bigger {
+  @media screen and (min-width: 1200px) {
+    width: 16px;
+    height: 12px;
+  }
 }

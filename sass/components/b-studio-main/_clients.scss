@@ -3,6 +3,7 @@
   margin: 0;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .clients__link {
@@ -12,7 +13,6 @@
   height: 92px;
   border: 1px solid $no-accent-color;
   border-radius: 4px;
-  padding: 16px 50px;
 
   color: $no-accent-color;
 
@@ -22,6 +22,10 @@
   &:focus {
     color: $accent-color;
     border-color: $accent-color;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 210px;
   }
 
   @media screen and (min-width: 768px) {
