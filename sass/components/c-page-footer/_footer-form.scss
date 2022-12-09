@@ -1,5 +1,5 @@
 .subscribe {
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
     width: 450px;
     margin: 0 auto;
   }
@@ -39,7 +39,7 @@
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 1200px) {
     margin-bottom: 20px;
   }
 

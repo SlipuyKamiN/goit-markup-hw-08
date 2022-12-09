@@ -5,7 +5,7 @@
   gap: 30px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .project {
     display: flex;
   }
@@ -23,7 +23,7 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 
-  @media screen and (min-width: 768px) and (max-width: 1199px) {
+  @media screen and (min-width: 768px) and (max-width: 1200px) {
     max-width: 354px;
     display: flex;
     flex-direction: column;

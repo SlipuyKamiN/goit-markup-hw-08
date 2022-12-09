@@ -554,12 +554,12 @@ address {
   -webkit-transform: scale(0%);
           transform: scale(0%);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .backdrop {
     padding: 95px 15px;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .backdrop {
     padding: 208px 159px;
   }
@@ -852,7 +852,7 @@ address {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .features__title {
     text-align: center;
   }
@@ -1007,7 +1007,7 @@ address {
   color: #2196f3;
   border-color: #2196f3;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .clients__link {
     width: 210px;
   }
@@ -1078,7 +1078,7 @@ address {
   gap: 30px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .project {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1097,7 +1097,7 @@ address {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .project__link {
     max-width: 354px;
     display: -webkit-box;
@@ -1183,7 +1183,7 @@ address {
   padding-bottom: 60px;
   background-color: #2f303a;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .footer {
     text-align: center;
   }
@@ -1215,7 +1215,7 @@ address {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .address {
     margin-bottom: 60px;
   }
@@ -1237,7 +1237,7 @@ address {
   color: #ffffff;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .follow {
     margin-bottom: 60px;
   }
@@ -1268,7 +1268,7 @@ address {
   background-color: #2196f3;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .subscribe {
     width: 450px;
     margin: 0 auto;
@@ -1313,7 +1313,7 @@ address {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1200px) {
   .subscribe__email {
     margin-bottom: 20px;
   }
